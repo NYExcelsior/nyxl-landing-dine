@@ -1,7 +1,18 @@
+header {
+  background: url('../images/glow_1.png') no-repeat;
+  background-size: cover;
+}
 .header {
   &__logo {
     height: rem-calc(200);
     margin-top: -20px;
     text-align: center;
+
+    img {
+
+      @media ($breakpointMedium2Max) {
+        width: 100%;
+      }
+    }
   }
 }

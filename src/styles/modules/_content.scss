@@ -36,6 +36,7 @@
     background-image: url('../images/05-06_54_2.jpg');
     background-position-x: rem-calc(-700);
     background-repeat: no-repeat;
+    background-size: cover;
     // flex: 1;
     flex: 46%;
     mask-image: -webkit-linear-gradient(to bottom, transparent, $colorDarkBlue 20px, $colorDarkBlue 90%, transparent);
