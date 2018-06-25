@@ -1,0 +1,168 @@
+main {
+  line-height: rem-calc(33);
+
+  .intro {
+    font-size: rem-calc(28);
+    font-style: normal;
+    font-stretch: normal;
+    font-weight: 700;
+    padding: rem-calc(50 100 34);
+    text-align: center;
+
+    @media($breakpointMediumMax) {
+      padding: rem-calc(16 0);
+    }
+  }
+
+  .date-time {
+    font-size: rem-calc(22);
+    font-style: normal;
+    font-stretch: normal;
+    font-weight: 700;
+    padding: rem-calc(16 0);
+    text-align: center;
+  }
+
+  .separator {
+    background: $colorLightBlue;
+    height: rem-calc(1);
+    margin: rem-calc(16) auto;
+    width: rem-calc(147);
+  }
+
+  .location {
+    font-size: rem-calc(22);
+    font-style: normal;
+    font-stretch: normal;
+    padding: rem-calc(16 0);
+    text-align: center;
+
+    &__title {
+      font-weight: 700;
+    }
+
+    &__address {
+    }
+  }
+
+  .rsvp {
+    padding: rem-calc(16 0);
+    text-align: center;
+
+    &__cta {
+      background: $colorLightBlue;
+      border: 0;
+      color: $colorWhite;
+      display: inline-block;
+      font-family: Industry;
+      font-size: rem-calc(22);
+      font-style: normal;
+      font-stretch: normal;
+      font-weight: 700;
+      height: rem-calc(60);
+      text-decoration: none;
+      width: rem-calc(370);
+
+      span {
+        display: inline-block;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+
+      @media($breakpointMediumMax) {
+        width: rem-calc(300);
+      }
+    }
+
+    &__text {
+      font-size: rem-calc(14);
+      line-height: rem-calc(20);
+      margin: auto;
+      padding: rem-calc(16 0);
+      width: rem-calc(370);
+
+      @media($breakpointSmallMax) {
+        width: rem-calc(300);
+      }
+    }
+  }
+
+  .overwatch-league {
+    display: flex;
+    padding: rem-calc(16 100);
+
+    &__logo {
+      flex: 1 1 span(2);
+      margin-top: rem-calc(25);
+
+      svg {
+        height: rem-calc(100);
+        width: rem-calc(150);
+
+        @media($breakpointMediumMax) {
+          height: auto;
+          width: rem-calc(110);
+        }
+      }
+    }
+
+    &__content {
+      flex: 1 1 span(10);
+      margin-left: rem-calc(48);
+    }
+
+    &__title {
+      font-size: rem-calc(22);
+      font-weight: 700;
+    }
+
+    &__description {
+      font-size: rem-calc(18);
+    }
+
+    @media($breakpointMediumMax) {
+      padding: rem-calc(16 10);
+    }
+  }
+
+  .ny-excelsior {
+    display: flex;
+    padding: rem-calc(16 100);
+
+    &__logo {
+      flex: 1 1 span(2);
+      margin-top: rem-calc(25);
+      margin-left: rem-calc(15);
+
+      img {
+        height: rem-calc(127);
+        width: rem-calc(120);
+
+        @media($breakpointMediumMax) {
+          height: auto;
+          width: rem-calc(100);
+        }
+      }
+    }
+
+    &__content {
+      flex: 1 1 span(10);
+      margin-left: rem-calc(60);
+    }
+
+    &__title {
+      font-size: rem-calc(22);
+      font-weight: 700;
+    }
+
+    &__description {
+      font-size: rem-calc(18);
+    }
+
+    @media($breakpointMediumMax) {
+      padding: rem-calc(16 10);
+    }
+  }
+
+}

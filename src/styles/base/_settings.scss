@@ -1,8 +1,8 @@
 // Viewports
 $viewportSmall: 480px;
 $viewportMedium: 768px;
-$viewportMedium2: 1024px;
-$viewportLarge: 1920px;
+$viewportMedium2: 1300px;
+$viewportLarge: 1800px;
 
 // Breakpoints
 $breakpointSmall: "min-width: " + $viewportSmall;
@@ -21,9 +21,8 @@ $susy: (
   'container-spread': 'narrow'
 );
 
-$colorDarkBlue: #171c38;
-$colorGray: #dedede;
-$colorGray2: #e5e5e5;
-$colorLightBlue: #0f57e9;
+$colorDarkBlue: #161B30;
+$colorGray: #D8D8D8;
+$colorLightBlue: #0f57ea;
 $colorRed: #ff0000;
 $colorWhite: #ffffff;

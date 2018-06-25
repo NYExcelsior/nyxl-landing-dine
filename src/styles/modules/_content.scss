@@ -1,0 +1,58 @@
+.content {
+  background-color: $colorDarkBlue;
+  color: $colorWhite;
+  display: flex;
+  font-family: "Industry", "Arial";
+  min-height: 100vh;
+
+  .left-col {
+    // flex: 1;
+    flex: 54%;
+    position: relative;
+    z-index: 1;
+
+    &__bg {
+      background: url('../images/05-06_54_2.jpg') no-repeat;
+      background-size: cover;
+      display: none;
+      height: 100%;
+      left: 0;
+      opacity: 0.2;
+      position: absolute;
+      top: 0;
+      width: 100%;
+      z-index: -1;
+      @media($breakpointMedium2Max) {
+        display: block;
+      }
+
+      @media($breakpointMediumMax) {
+        background-position-x: rem-calc(-300);
+      }
+    }
+  }
+
+  .right-col {
+    background-image: url('../images/05-06_54_2.jpg');
+    background-position-x: rem-calc(-700);
+    background-repeat: no-repeat;
+    // flex: 1;
+    flex: 46%;
+    mask-image: -webkit-linear-gradient(to bottom, transparent, $colorDarkBlue 20px, $colorDarkBlue 90%, transparent);
+    mask-image: -moz-linear-gradient(to bottom, transparent, $colorDarkBlue 20px, $colorDarkBlue 90%, transparent);
+    mask-image: linear-gradient(to bottom, transparent, $colorDarkBlue 20px, $colorDarkBlue 90%, transparent);
+    -webkit-mask-image: -webkit-linear-gradient(to bottom, transparent, $colorDarkBlue 20px, $colorDarkBlue 90%, transparent);
+    -webkit-mask-image: -moz-linear-gradient(to bottom, transparent, $colorDarkBlue 20px, $colorDarkBlue 90%, transparent);
+    -webkit-mask-image: linear-gradient(to bottom, transparent, $colorDarkBlue 20px, $colorDarkBlue 90%, transparent);
+
+    @media(min-width: $viewportLarge + 1) {
+      background-position-x: rem-calc(0);
+      background-position-x: rem-calc(-300);
+      background-size: cover;
+    }
+
+    @media($breakpointMedium2Max) {
+      display: none;
+    }
+  }
+}
