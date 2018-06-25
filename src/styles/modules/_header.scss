@@ -10,7 +10,7 @@ header {
 
     img {
 
-      @media ($breakpointMedium2Max) {
+      @media (max-width: 840px) {//width of logo image
         width: 100%;
       }
     }
