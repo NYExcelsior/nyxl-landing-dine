@@ -47,8 +47,22 @@
     -webkit-mask-image: linear-gradient(to bottom, transparent, $colorDarkBlue 20px, $colorDarkBlue 90%, transparent);
 
     @media(min-width: $viewportLarge + 1) {
-      background-position-x: rem-calc(0);
       background-position-x: rem-calc(-300);
+      background-size: cover;
+    }
+
+    @media(max-width: $viewportShiftImage) {
+      background-position-x: rem-calc(-900);
+      background-size: cover;
+    }
+
+    @media(max-width: $viewportShiftImage2) {
+      background-position-x: rem-calc(-1100);
+      background-size: cover;
+    }
+
+    @media(max-width: $viewportShiftImage3) {
+      background-position-x: rem-calc(-1300);
       background-size: cover;
     }
 

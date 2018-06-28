@@ -1,8 +1,13 @@
 // Viewports
 $viewportSmall: 480px;
 $viewportMedium: 768px;
-$viewportMedium2: 1300px;
+$viewportMedium2: 1024px;
 $viewportLarge: 1800px;
+
+$viewportBreakSideRatio: 1570px;
+$viewportShiftImage: 1400px;
+$viewportShiftImage2: 1200px;
+$viewportShiftImage3: 1200px;
 
 // Breakpoints
 $breakpointSmall: "min-width: " + $viewportSmall;

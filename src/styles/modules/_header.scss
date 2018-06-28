@@ -10,7 +10,7 @@ header {
 
     img {
 
-      @media (max-width: 840px) {//width of logo image
+      @media (max-width: $viewportBreakSideRatio) {//max width of side before ration breaks
         width: 100%;
       }
     }
