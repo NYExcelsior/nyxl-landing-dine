@@ -12,7 +12,7 @@
     z-index: 1;
 
     &__bg {
-      background: url('../images/05-06_54_2.jpg') no-repeat;
+      background: url('../images/05-06_55.jpg') no-repeat;
       background-size: cover;
       display: none;
       height: 100%;
@@ -33,8 +33,8 @@
   }
 
   .right-col {
-    background-image: url('../images/05-06_54_2.jpg');
-    background-position-x: rem-calc(-700);
+    background-image: url('../images/05-06_55.jpg');
+    background-position-x: rem-calc(-550);
     background-repeat: no-repeat;
     background-size: cover;
     // flex: 1;
@@ -48,22 +48,22 @@
 
     @media(min-width: $viewportLarge + 1) {
       background-position-x: rem-calc(-300);
-      background-size: cover;
+      // background-size: cover;
     }
 
     @media(max-width: $viewportShiftImage) {
-      background-position-x: rem-calc(-900);
-      background-size: cover;
+      background-position-x: rem-calc(-700);
+      // background-size: cover;
     }
 
     @media(max-width: $viewportShiftImage2) {
-      background-position-x: rem-calc(-1100);
-      background-size: cover;
+      background-position-x: rem-calc(-800);
+      // background-size: cover;
     }
 
     @media(max-width: $viewportShiftImage3) {
-      background-position-x: rem-calc(-1300);
-      background-size: cover;
+      background-position-x: rem-calc(-900);
+      // background-size: cover;
     }
 
     @media($breakpointMedium2Max) {
